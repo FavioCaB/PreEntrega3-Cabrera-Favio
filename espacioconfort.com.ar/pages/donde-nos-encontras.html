@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Conoce nuestro local asi podras ver la variedad de productos y poder tener un acesoramiento personalizado par encontrar el producto acorde a tu necesidad.">
+    <meta name="keywords" content="COLCHONERIAS,COLCHONES,PROMOCIONES,ESPACIO,CONFORT,MUEBLERIA">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--bootstrap-->
+    <title>Esp-Donde nos encontras</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img class="logo" src="../img/Logo EspCon.png" alt="Logo">
+        </a>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><i class="bi bi-list"></i></button>
+            <ul class="nav-list">
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/promociones.html">Promociones</a></li>
+                <li><a href="../pages/contactos.html">Contactos</a></li>
+                <li><a href="../pages/donde-nos-encontras.html">Donde nos encontras</a></li>
+            </ul>
+        </nav>
+      </header>
+    <section class="grid-container">
+        <main id="donde-container">
+            <div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.2466498149233!2d-64.2238186!3d-31.4073298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299e00ec2449d%3A0xbc506283bb85076c!2sEspacio%20confort!5e0!3m2!1ses!2sar!4v1675440218762!5m2!1ses!2sar" width="400" height="300" ;" allowfullscreen="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>       
+        <article class="estamos-container">
+                <h4 class="estamos">Estamos ubicado a tan solo 20min del centro de la ciudad, sobre la Av. Maestro Vidal a solo 10 mts de Av. Duarte Quiros.
+                En nuestro local vas a encontrar una variedad de colchones, bases, almohadas, cunas y muebles para dormitorio.
+                </h4> 
+        </article>    
+        <nav class="opinion-container">
+            <!--Opiniones-->
+            <div class="comentario">
+                <h2>Dejanos tu opinion:</h2>
+                <p>
+                    <label for="name">Nombre</label>   
+                    <input class="input1" type="text" placeholder="Nombre">
+                </p>
+                
+                <p>
+                    <textarea class="input1" name="Opinion" id="" cols="30" rows="10"></textarea>
+                </p>
+                
+                <div>  
+                    <button class="button1" type="submit">Enviar</button>
+                    <button class="button1" type="reset">Borrar</button>
+                </div>  
+            </div>    
+        </nav>
+        <aside class="img-container">
+            <img class="img-fren1" src="../img/imagenes/frente 2.jpg" alt="foto negocio frente">
+        </aside>
+        
+    </section>
+
+    <footer id="pie">
+        <div class="menu-logo">
+            <div><a href="../index.html">
+                    <img class="logo-e" src="../img/logo E.png" alt="logo-marca">
+                </a>
+            </div>
+        </div>
+        <div class="menu-iconos">
+            <div class="iconos-red">
+                <a href="https://www.facebook.com/espacio.confort.cba" target="_blank">
+                    <img class="img-iconos" src="../img/iconos/facebook.webp" alt="icono facebook">
+                </a>
+            </div>
+            <div class="iconos-red">
+                <a href="https://www.instagram.com/espacio.confort/" target="_blank">     
+                    <img class="img-iconos" src="../img/iconos/instagram.webp" alt="icono instagram">
+                </a>
+            </div>
+            <div class="iconos-red"> 
+                <a href="./donde-nos-encontras.html">
+                    <img class="img-iconos" src="../img/iconos/ubicacion.webp" alt="icono maps">
+                </a>
+            </div>
+            <div class="iconos-red">
+                <a href="../pages/telefonos.html">       
+                    <img class="img-iconos" src="../img/iconos/whatsapp.webp" alt="icono Whatsapp">
+                </a>
+            </div>
+        </div>   
+    </footer>
+    <script src="./Libreria/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/header.js"></script>
+</body>
+</html>
